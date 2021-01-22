@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:app="http://schemas.huawei.com/apk/res/ohos"
+    ohos:id="$+id:scrollview"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FFDEAD"
+    ohos:top_margin="32vp"
+    ohos:bottom_padding="16vp"
+    ohos:layout_alignment="horizontal_center">
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:left_margin="20vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:id="$+id:text_helloworld"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:layout_alignment="left"
+            ohos:text="$string:use_listener"
+            ohos:text_size="50"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:layout_alignment="left"
+            ohos:orientation="horizontal">
+
+            <com.isoftstone.switchbutton.SwitchButton
+                ohos:id="$+id:switchButton3_1"
+                ohos:right_margin="50px"
+                ohos:height="30vp"
+                ohos:width="60vp"
+                app:SwitchButton_ThumbDrawable_on = "$graphic:button_thumb_on"
+                app:SwitchButton_ThumbDrawable_off = "$graphic:button_thumb_off"
+                app:SwitchButton_BackDrawable_on = "$graphic:button_back_on"
+                app:SwitchButton_BackDrawable_off = "$graphic:button_back_off"
+                app:SwitchButton_BackHeight = "100"
+                app:SwitchButton_BackWidth = "300"
+                app:SwitchButton_kswThumbMargin = "20"
+                app:SwitchButton_kswThumbWidth = "60"
+                app:SwitchButton_kswThumbHeight = "90"
+                app:SwitchButton_kswThumbRadius = "50"
+                app:SwitchButton_kswBackRadius = "50"
+                app:SwitchButton_kswThumbRangeRatio = "2.2"
+                app:SwitchButton_tintColor = "$color:thumb_on"
+                app:SwitchButton_kswTextOn = "ON"
+                app:SwitchButton_kswTextOff = "OFF"
+                ohos:layout_alignment="left"/>
+
+            <com.isoftstone.switchbutton.SwitchButton
+                ohos:id="$+id:switchButton3_2"
+                ohos:right_margin="50px"
+                ohos:height="30vp"
+                ohos:width="60vp"
+                app:SwitchButton_ThumbDrawable_on = "$graphic:button_thumb_on"
+                app:SwitchButton_ThumbDrawable_off = "$graphic:button_thumb_off"
+                app:SwitchButton_BackDrawable_on = "$graphic:button_back_on"
+                app:SwitchButton_BackDrawable_off = "$graphic:button_back_off"
+                app:SwitchButton_BackHeight = "100"
+                app:SwitchButton_BackWidth = "300"
+                app:SwitchButton_kswThumbMargin = "20"
+                app:SwitchButton_kswThumbWidth = "60"
+                app:SwitchButton_kswThumbHeight = "90"
+                app:SwitchButton_kswThumbRadius = "50"
+                app:SwitchButton_kswBackRadius = "50"
+                app:SwitchButton_kswThumbRangeRatio = "2.2"
+                app:SwitchButton_tintColor = "$color:thumb_on"
+                app:SwitchButton_kswTextOn = "ON"
+                app:SwitchButton_kswTextOff = "OFF"
+                ohos:layout_alignment="left"/>
+
+        </DirectionalLayout>
+
+<!--        <Text-->
+<!--            ohos:height="match_content"-->
+<!--            ohos:width="match_content"-->
+<!--            ohos:top_margin="30vp"-->
+<!--            ohos:text_size="50"-->
+<!--            ohos:layout_alignment="left"-->
+<!--            ohos:text="work with delay"/>-->
+
+<!--        <com.isoftstone.switchbutton.SwitchButton-->
+<!--            ohos:id="$+id:switchButton3_delay"-->
+<!--            ohos:right_margin="50px"-->
+<!--            ohos:height="30vp"-->
+<!--            ohos:width="60vp"-->
+<!--            app:SwitchButton_ThumbDrawable_on = "$graphic:button_thumb_on"-->
+<!--            app:SwitchButton_ThumbDrawable_off = "$graphic:button_thumb_off"-->
+<!--            app:SwitchButton_BackDrawable_on = "$graphic:button_back_on"-->
+<!--            app:SwitchButton_BackDrawable_off = "$graphic:button_back_off"-->
+<!--            app:SwitchButton_BackHeight = "100"-->
+<!--            app:SwitchButton_BackWidth = "300"-->
+<!--            app:SwitchButton_kswThumbMargin = "20"-->
+<!--            app:SwitchButton_kswThumbWidth = "60"-->
+<!--            app:SwitchButton_kswThumbHeight = "90"-->
+<!--            app:SwitchButton_kswThumbRadius = "50"-->
+<!--            app:SwitchButton_kswBackRadius = "50"-->
+<!--            app:SwitchButton_kswThumbRangeRatio = "2.2"-->
+<!--            app:SwitchButton_tintColor = "$color:thumb_on"-->
+<!--            app:SwitchButton_kswTextOn = "ON"-->
+<!--            app:SwitchButton_kswTextOff = "OFF"-->
+<!--            ohos:layout_alignment="left"/>-->
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="50"
+            ohos:top_margin="30vp"
+            ohos:layout_alignment="left"
+            ohos:multiple_lines="true"
+            ohos:text="$string:use_check_in_check"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:layout_alignment="left"
+            ohos:orientation="horizontal">
+
+            <com.isoftstone.switchbutton.SwitchButton
+                ohos:id="$+id:switchButton3_focus_open"
+                ohos:right_margin="50px"
+                ohos:height="30vp"
+                ohos:width="60vp"
+                app:SwitchButton_ThumbDrawable_on = "$graphic:button_thumb_on"
+                app:SwitchButton_ThumbDrawable_off = "$graphic:button_thumb_off"
+                app:SwitchButton_BackDrawable_on = "$graphic:button_back_on"
+                app:SwitchButton_BackDrawable_off = "$graphic:button_back_off"
+                app:SwitchButton_BackHeight = "100"
+                app:SwitchButton_BackWidth = "300"
+                app:SwitchButton_kswThumbMargin = "20"
+                app:SwitchButton_kswThumbWidth = "60"
+                app:SwitchButton_kswThumbHeight = "90"
+                app:SwitchButton_kswThumbRadius = "50"
+                app:SwitchButton_kswBackRadius = "50"
+                app:SwitchButton_kswThumbRangeRatio = "2.2"
+                app:SwitchButton_tintColor = "$color:thumb_on"
+                app:SwitchButton_kswTextOn = "ON"
+                app:SwitchButton_kswTextOff = "OFF"
+                ohos:layout_alignment="left"/>
+
+            <com.isoftstone.switchbutton.SwitchButton
+                ohos:id="$+id:switchButton3_focus_open_control"
+                ohos:right_margin="50px"
+                ohos:height="30vp"
+                ohos:width="60vp"
+                app:SwitchButton_ThumbDrawable_on = "$graphic:button_thumb_on"
+                app:SwitchButton_ThumbDrawable_off = "$graphic:button_thumb_off"
+                app:SwitchButton_BackDrawable_on = "$graphic:button_back_on"
+                app:SwitchButton_BackDrawable_off = "$graphic:button_back_off"
+                app:SwitchButton_BackHeight = "100"
+                app:SwitchButton_BackWidth = "300"
+                app:SwitchButton_kswThumbMargin = "20"
+                app:SwitchButton_kswThumbWidth = "60"
+                app:SwitchButton_kswThumbHeight = "90"
+                app:SwitchButton_kswThumbRadius = "50"
+                app:SwitchButton_kswBackRadius = "50"
+                app:SwitchButton_kswThumbRangeRatio = "2.2"
+                app:SwitchButton_tintColor = "$color:thumb_on"
+                app:SwitchButton_kswTextOn = "ON"
+                app:SwitchButton_kswTextOff = "OFF"
+                ohos:layout_alignment="left"/>
+
+
+        </DirectionalLayout>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="50"
+            ohos:top_margin="30vp"
+            ohos:layout_alignment="left"
+            ohos:multiple_lines="true"
+            ohos:text="$string:use_toggle"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:layout_alignment="left"
+            ohos:orientation="horizontal">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="left"
+                ohos:orientation="vertical">
+
+                <Button
+                    ohos:id="$+id:toggle_ani"
+                    ohos:width="match_parent"
+                    ohos:height="match_content"
+                    ohos:bottom_margin="20vp"
+                    ohos:layout_alignment="left"
+                    ohos:background_element="$graphic:background_button"
+                    ohos:text="$string:toggle_animated"
+                    ohos:text_color="#000000"
+                    ohos:text_size="50"/>
+
+                <Button
+                    ohos:id="$+id:toggle_ani_no_event"
+                    ohos:width="match_parent"
+                    ohos:height="match_content"
+                    ohos:layout_alignment="left"
+                    ohos:bottom_margin="20vp"
+                    ohos:background_element="$graphic:background_button"
+                    ohos:text="$string:toggle_animated_no_event"
+                    ohos:text_size="50"/>
+
+                <Button
+                    ohos:id="$+id:toggle_not_ani"
+                    ohos:width="match_parent"
+                    ohos:height="match_content"
+                    ohos:bottom_margin="20vp"
+                    ohos:layout_alignment="left"
+                    ohos:background_element="$graphic:background_button"
+                    ohos:text="$string:toggle_not_animated"
+                    ohos:text_size="50"/>
+
+                <Button
+                    ohos:id="$+id:toggle_not_ani_no_event"
+                    ohos:width="match_parent"
+                    ohos:height="match_content"
+                    ohos:layout_alignment="left"
+                    ohos:background_element="$graphic:background_button"
+                    ohos:text="$string:toggle_not_animated_no_event"
+                    ohos:text_size="50"/>
+
+            </DirectionalLayout>
+
+            <com.isoftstone.switchbutton.SwitchButton
+                ohos:id="$+id:switchButton3_use_toggle"
+                ohos:right_margin="50px"
+                ohos:height="30vp"
+                ohos:width="60vp"
+                app:SwitchButton_ThumbDrawable_on = "$graphic:button_thumb_on"
+                app:SwitchButton_ThumbDrawable_off = "$graphic:button_thumb_off"
+                app:SwitchButton_BackDrawable_on = "$graphic:button_back_on"
+                app:SwitchButton_BackDrawable_off = "$graphic:button_back_off"
+                app:SwitchButton_BackHeight = "100"
+                app:SwitchButton_BackWidth = "300"
+                app:SwitchButton_kswThumbMargin = "20"
+                app:SwitchButton_kswThumbWidth = "60"
+                app:SwitchButton_kswThumbHeight = "90"
+                app:SwitchButton_kswThumbRadius = "50"
+                app:SwitchButton_kswBackRadius = "50"
+                app:SwitchButton_kswThumbRangeRatio = "2.2"
+                app:SwitchButton_tintColor = "$color:thumb_on"
+                app:SwitchButton_kswTextOn = "ON"
+                app:SwitchButton_kswTextOff = "OFF"
+                ohos:layout_alignment="vertical_center"/>
+
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+</ScrollView>

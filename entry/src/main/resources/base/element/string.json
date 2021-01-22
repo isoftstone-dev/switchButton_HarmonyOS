@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "MyApplication"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "use_listener",
+      "value": "Work with listener"
+    },
+    {
+      "name": "use_check_in_check",
+      "value": "call setChecked(boolean)/setCheckedImmediately(boolean) in OnCheckedChangeListener\\nIf the second SwitchButton is checked, the first one was \"locked\" to checked state."
+    },
+    {
+      "name": "use_toggle",
+      "value": "2 ways to TOGGLE"
+    },
+    {
+      "name": "use_checked",
+      "value": "2 ways to SET_CHECKED"
+    },
+    {
+      "name": "toggle_animated",
+      "value": "toggle();"
+    },
+    {
+      "name": "toggle_animated_no_event",
+      "value": "toggleNoEvent()"
+    },
+    {
+      "name": "toggle_not_animated",
+      "value": "toggleImmediately()"
+    },
+    {
+      "name": "toggle_not_animated_no_event",
+      "value": "toggleImmediatelyNoEvent();"
+    },
+    {
+      "name": "checked_animated",
+      "value": "setChecked(boolean)"
+    },
+    {
+      "name": "checked_animated_no_event",
+      "value": "setCheckedNoEvent(boolean)"
+    },
+    {
+      "name": "checked_not_animated",
+      "value": "setCheckedImmediately(boolean)"
+    },
+    {
+      "name": "checked_not_animated_no_event",
+      "value": "setCheckedImmediatelyNoEvent(boolean)"
+    }
+  ]
+}

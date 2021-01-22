@@ -1,0 +1,20 @@
+{
+  "color":[
+    {
+      "name":"thumb_on",
+      "value":"#1E90FF"
+    },
+    {
+      "name":"thumb_off",
+      "value":"#FFFFFF"
+    },
+    {
+      "name":"track_on",
+      "value":"#87CEFA"
+    },
+    {
+      "name":"track_off",
+      "value":"#808080"
+    }
+  ]
+}

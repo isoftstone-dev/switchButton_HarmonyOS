@@ -1,0 +1,32 @@
+{
+  "color":[
+    {
+      "name":"ripple_normal",
+      "value":"#1E000000"
+    },
+    {
+      "name":"ripple_checked",
+      "value":"#33019285"
+    },
+    {
+      "name":"solid_shadow",
+      "value":"#33000000"
+    },
+    {
+      "name":"solid_normal",
+      "value":"#ECECEC"
+    },
+    {
+      "name":"solid_checked",
+      "value":"#019285"
+    },
+    {
+      "name":"solid_disable",
+      "value":"#FFFFFF"
+    },
+    {
+      "name":"solid_checked_disable",
+      "value":"#aaaaaa"
+    }
+  ]
+}

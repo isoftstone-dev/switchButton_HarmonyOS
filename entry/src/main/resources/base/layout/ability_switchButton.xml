@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        xmlns:app="http://schemas.huawei.com/apk/res/ohos"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:left_margin="20vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:orientation="vertical">
+
+        <com.isoftstone.switchbutton.SwitchButton
+            ohos:id="$+id:switchBtn1"
+            ohos:top_margin="100vp"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            app:SwitchButton_ThumbDrawable_on = "$graphic:button_thumb_on"
+            app:SwitchButton_ThumbDrawable_off = "$graphic:button_thumb_off"
+            app:SwitchButton_BackDrawable_on = "$graphic:button_back_on"
+            app:SwitchButton_BackDrawable_off = "$graphic:button_back_off"
+            app:SwitchButton_BackHeight = "200"
+            app:SwitchButton_BackWidth = "300"
+            app:SwitchButton_kswThumbMargin = "100"
+            app:SwitchButton_kswThumbWidth = "100"
+            app:SwitchButton_kswThumbHeight = "90"
+            app:SwitchButton_kswThumbRadius = "50"
+            app:SwitchButton_kswBackRadius = "50"
+            app:SwitchButton_kswThumbRangeRatio = "2.2"
+            app:SwitchButton_tintColor = "$color:thumb_on"
+            app:SwitchButton_kswTextOn = "ON"
+            app:SwitchButton_kswTextOff = "OFF"
+            ohos:layout_alignment="horizontal_center"/>
+
+    </DirectionalLayout>
+
